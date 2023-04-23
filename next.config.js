@@ -9,7 +9,7 @@ let basePath = '/'
 
 if (isGithubActions) {
   // trim off `<owner>/`
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+  const repo = "NexRead-Website"
 
   assetPrefix = `/${repo}/`
   basePath = `/${repo}`
