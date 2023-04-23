@@ -7,7 +7,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS || false
 let assetPrefix = ''
 let basePath = '/'
 
-if (isGithubActions) {
+if (true) {
   // trim off `<owner>/`
   const repo = "NexRead-Website"
 
